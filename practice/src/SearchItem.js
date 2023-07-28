@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef } from "react";
+
 const SearchItem = ({ search, setSearch }) => {
   return (
     <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
